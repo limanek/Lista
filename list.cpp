@@ -2,7 +2,7 @@
 #include <vector>
 #include <list>
 
-int main() {
+void lista() {
     std::list<int> list {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
     std::cout << list.front() << std::endl;
     std::cout << list.back() << std::endl;
@@ -11,5 +11,13 @@ int main() {
         ++it;
     }
     std::cout << *it << std::endl;
+}
+
+void start() {
+    lista();
+}
+
+int main() {
+    start();
     return 0;
 }
