@@ -18,7 +18,7 @@ void lista() {
 std::list<int> createSortedList(std::vector<int> tab) {
     for(size_t i = 0; i < tab.size(); i++) {
         allTab.push_back(tab[i]);
-        
+        allTab.sort();
     }
     return allTab;
 }
